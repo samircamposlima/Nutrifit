@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/formatos.css" />
+    <link rel="stylesheet" type="text/css" href="style/cadastro.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Nutrifit</title>
+    <link rel="shortcut icon" href="img/ícone-4.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                 <li><a href="home.html">Menu</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a style="color: #f8963c;" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="alin-esquerda">
+            <h1>Efetue seu Cadastro</h1>
+            <form>
+               <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Nome</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="nome" class="form-control">
+                    </div>
+              </div>
+            </form>
+            <form action="#">
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">E-mail</label>
+                    <div class="col-sm-8">
+                        <input type="email" name="email"class="form-control">
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">CEP</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" name="cep" >
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Rua</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">N°</label>
+                        <div class="col-sm-2">
+                            <input type="numero" class="form-control"name="numero">
+                        </div>
+                    <label class="col-sm-2 col-form-label">Complemento</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                </div>
+            </form>
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Cidade</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control"name="cidade">
+                        </div>
+                    <label class="col-sm-1 col-form-label">UF</label>
+                        <div class="col-sm-1">
+                            <input type="text" class="form-control"name="UF">
+                        </div>
+                        <button type="button" class="btn btn-outline-light">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
